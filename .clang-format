@@ -1,0 +1,98 @@
+BasedOnStyle: Google
+AccessModifierOffset: '-4'
+AlignArrayOfStructures: Left
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: true
+BreakAfterJavaFieldAnnotations: true
+BreakBeforeBraces: Linux
+BreakBeforeBinaryOperators: NonAssignment
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+ColumnLimit: 200
+CompactNamespaces: false
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+EmptyLineAfterAccessModifier: 'Never'
+EmptyLineBeforeAccessModifier: 'LogicalBlock'
+ExperimentalAutoDetectBinPacking: false
+FixNamespaceComments: true
+IncludeBlocks: 'Regroup'
+IndentAccessModifiers: false
+IndentCaseBlocks: true
+IndentCaseLabels: true
+IndentExternBlock: 'NoIndent'
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+#IndentRequiresClause: true   # c++20 / clang-format 15
+IndentWidth: '4'
+KeepEmptyLinesAtTheStartOfBlocks: false
+LambdaBodyIndentation: OuterScope
+Language: Cpp
+MaxEmptyLinesToKeep: '1'
+NamespaceIndentation: None
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Left
+QualifierAlignment: Left
+#QualifierOrder: ['inline', 'static', 'constexpr', 'volatile', 'const', 'type' ]
+ReferenceAlignment: Pointer
+#RemoveBracesLLVM : true # <- Blocked by LOG macro
+#RemoveSemicolon: true
+#RequiresClausePosition:
+SeparateDefinitionBlocks: Always
+SortIncludes: CaseInsensitive
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Custom
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+  AfterFunctionDefinitionName: true
+  AfterFunctionDeclarationName: false
+  AfterOverloadedOperator: true
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: true
+SpaceInEmptyParentheses: true
+SpacesBeforeTrailingComments: 2
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: true
+SpacesInContainerLiterals: false
+#SpacesInParens: Custom
+#SpacesInParensOptions:
+#  InConditionalStatements: true
+#  InCStyleCasts: false
+#  InEmptyParentheses: true
+#  Other: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+StatementMacros: [ 'LOG', 'LOG_EX', 'TRACE', 'LOG_EX_ERR', 'LOG_EX_DEBUG' ]
+Standard: c++20
+TabWidth: 4
+UseTab: 'Never'
